@@ -1,7 +1,7 @@
 package com.simplesw.vertx.jolokia;
 
 import io.vertx.core.logging.Logger;
-import org.jolokia.util.LogHandler;
+import org.jolokia.server.core.service.api.LogHandler;
 
 class JolokiaLogHandler implements LogHandler {
   private final Logger log;
@@ -23,5 +23,10 @@ class JolokiaLogHandler implements LogHandler {
   @Override
   public void error(String message, Throwable t) {
     log.error(message, t);
+  }
+
+  @Override
+  public boolean isDebug() {
+    return true;
   }
 }
