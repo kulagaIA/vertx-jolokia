@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for vertx-jolokia" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="codetrans.config" value="C:\Users\kulag\Documents\projects\opensource\vertx-jolokia/codetrans-config.json" />
+        <option name="codetrans.output" value="C:\Users\kulag\Documents\projects\opensource\vertx-jolokia/src/main" />
+        <module name="vertx-jolokia" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="vertx-jolokia" options="-Acodetrans.output=C:\Users\kulag\Documents\projects\opensource\vertx-jolokia/src/main -Acodetrans.config=C:\Users\kulag\Documents\projects\opensource\vertx-jolokia/codetrans-config.json" />
+    </option>
+  </component>
+</project>
